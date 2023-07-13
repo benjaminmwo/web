@@ -1,0 +1,150 @@
+*{
+    margin :0;
+    padding: 0;
+}
+.main{
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(school.jpg);
+    
+    background-position: center;
+    background-size:contain;
+    
+    
+
+
+    
+}
+
+.icon{
+    width: 200px; 
+    height: 70px; 
+    float: left;
+}
+.logo{
+    background-image: url(logo.png);
+    float: left;
+
+
+
+    
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+
+
+.menu ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    color: #323f2e;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+.menu ul li a{
+    
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.serch{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    font-weight: bold;
+}
+.srch
+{
+font-family: Arial, Helvetica, sans-serif;
+width: 200px;
+height: 40px;
+background-color:rgb(168, 182, 91);
+border: 1px black;
+margin-top: 13px;
+font-weight: bold;
+}
+.navibar{
+    width: 1200px;
+    height: 75px;
+    
+}
+.sidenav{
+    height: 30vh;
+    width: 100px;
+    background-color: rgb(159, 228, 228);
+    display: flex;
+}
+.sidenav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    border: 1px solid #555
+
+  }
+  .sidenav li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+    font-family:'Times New Roman', Times, serif;
+    color: #323f2e;
+    font-size: 18px;
+  }
+  
+  .sidenav li :last-child {
+    border-bottom: none;
+  }
+  
+  .sidenav a {
+    display: block;
+    color: #323f2e;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-weight:bolder;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  hi{
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+  }
+  p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #4858e2;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
